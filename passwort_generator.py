@@ -66,7 +66,7 @@ def password_combination():
 		return [digits, letters, puncts]
 
 	# fange falsche Eingabe ab und gebe default aus
-    # falsche Eingabe: NameError: name '...' is not defined
+        # falsche Eingabe: NameError: name '...' is not defined
 	except NameError: 
 		print("Falsche Eingabe. Gebe entweder True oder False ein")
                 
